@@ -2,7 +2,7 @@
 {
 	public class WeatherForecastService
 	{
-		private static List<WeatherForecast> _weatherForecasts = new List<WeatherForecast>();
+		private List<WeatherForecast> _weatherForecasts = new List<WeatherForecast>();
 
 		public void Add(WeatherForecast weatherForecast)
 		{
@@ -27,11 +27,6 @@
 		public WeatherForecast? Get(DateTime dateTime)
 		{
 			return _weatherForecasts.SingleOrDefault(x => x.Date == dateTime);
-		}
-
-		public void Clear()
-		{
-			_weatherForecasts.Clear();
 		}
 	}
 }
