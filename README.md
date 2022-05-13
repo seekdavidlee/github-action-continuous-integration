@@ -5,7 +5,9 @@ This is an introduction to GitHub Action focused on Continuous Integration or CI
 To run the demo, please follow the steps below.
 
 1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this git repo.
-2. Do a local test by running ```dotnet test``` in the MyWebApiTest directory. There should be all successful tests as seen in the example output below.
+2. In your forked repo, go to settings, then Actions on the left blade, scroll down to the bottom and under Workflow permissions check the read and write permissions option.
+3. Clone a local copy
+4. Do a local test by running ```dotnet test``` in the MyWebApiTest directory. There should be all successful tests as seen in the example output below.
 ```
 PS C:\dev\intro-to-github-action-continuous-integration\MyWebApiTest> dotnet test
   Determining projects to restore...
@@ -21,6 +23,5 @@ A total of 1 test files matched the specified pattern.
 
 Passed!  - Failed:     0, Passed:     5, Skipped:     0, Total:     5, Duration: 18 ms - MyWebApiTest.dll (net6.0)
 ```
-3. In your forked repo, go to settings, then Actions on the left blade, scroll down to the bottom and under Workflow permissions check the read and write permissions option.
-4. Create a branch
-5. Push your branch and the GitHub Action workflow will run. Check out Actions tab to see it in action.
+5. Create a branch
+6. Push your branch and the GitHub Action workflow will run. Check out Actions tab to see it in action.
