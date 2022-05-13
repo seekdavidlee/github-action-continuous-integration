@@ -9,7 +9,6 @@ jobs:
 
   build_test:
     name: Build and run tests
-    needs: setup
     runs-on: windows-latest
     environment: ${{ needs.setup.outputs.build_env }}
     steps:
