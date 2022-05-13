@@ -4,6 +4,7 @@ on:
       - 'README.md'
     branches-ignore:
       - 'main'
+      - 'staging'
 
 jobs:
 
