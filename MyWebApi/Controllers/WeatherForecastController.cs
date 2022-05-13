@@ -6,20 +6,13 @@ namespace MyWebApi.Controllers
 	[Route("[controller]")]
 	public class WeatherForecastController : ControllerBase
 	{
-		private static readonly string[] Summaries = new[]
-		{
-		"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-	};
-
+		private static WeatherForecastService _weatherForecastService = new WeatherForecastService();
 		private readonly ILogger<WeatherForecastController> _logger;
 
 		public WeatherForecastController(ILogger<WeatherForecastController> logger)
 		{
 			_logger = logger;
 		}
-
-		private static WeatherForecastService _weatherForecastService = new WeatherForecastService();
-
 
 		[HttpPut(Name = "AddWeatherForecast")]
 		public IActionResult Add(WeatherForecast weatherForecast)
