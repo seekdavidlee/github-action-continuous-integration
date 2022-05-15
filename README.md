@@ -1,5 +1,5 @@
 # Introduction
-This is an introduction to GitHub Action focused on Continuous Integration or CI.
+This is an introduction to GitHub Action focused on Continuous Integration or CI for building and unit testing .NET Web API.
 
 # Steps
 To run the demo, please follow the steps below.
