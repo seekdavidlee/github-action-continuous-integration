@@ -9,12 +9,12 @@ To run the demo, please follow the steps below.
 3. Clone a local copy
 4. Do a local test by running ```dotnet test``` in the MyWebApiTest directory. There should be all successful tests as seen in the example output below.
 ```
-PS C:\dev\intro-to-github-action-continuous-integration\MyWebApiTest> dotnet test
+PS C:\dev\github-action-continuous-integration\MyWebApiTest> dotnet test
   Determining projects to restore...
   All projects are up-to-date for restore.
-  MyWebApi -> C:\dev\intro-to-github-action-continuous-integration\MyWebApi\bin\Debug\net6.0\MyWebApi.dll
-  MyWebApiTest -> C:\dev\intro-to-github-action-continuous-integration\MyWebApiTest\bin\Debug\net6.0\MyWebApiTest.dll
-Test run for C:\dev\intro-to-github-action-continuous-integration\MyWebApiTest\bin\Debug\net6.0\MyWebApiTest.dll (.NETCoreApp,Version=v6.0)
+  MyWebApi -> C:\dev\github-action-continuous-integration\MyWebApi\bin\Debug\net6.0\MyWebApi.dll
+  MyWebApiTest -> C:\dev\github-action-continuous-integration\MyWebApiTest\bin\Debug\net6.0\MyWebApiTest.dll
+Test run for C:\dev\github-action-continuous-integration\MyWebApiTest\bin\Debug\net6.0\MyWebApiTest.dll (.NETCoreApp,Version=v6.0)
 Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (x64)
 Copyright (c) Microsoft Corporation.  All rights reserved.
 
